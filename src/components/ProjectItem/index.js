@@ -9,9 +9,11 @@ const ProjectItem = (props) => {
         <div className="i-details">
           <h1 className="p-h2">{projectName}</h1>
           <p>{description}</p>
-          <button type="button" className="btn p-btn">
-            View Project
-          </button>
+          <a href={projectLink} target="blank">
+            <button type="button" className="btn p-btn">
+              View Project
+            </button>
+          </a>
         </div>
       </div>
       <img className="p-img" src={imageUrl} alt="p-img" />

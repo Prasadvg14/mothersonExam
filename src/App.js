@@ -30,7 +30,7 @@ let projectsList = [
     projectName: "todo list",
     description:
       "I created this personal project to create a todo list to manage my tasks which included in my schedule.",
-    projectLink: "url",
+    projectLink: "https://prasadvgtodo.ccbp.tech/",
     imageUrl:
       "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
   },

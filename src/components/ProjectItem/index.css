@@ -35,3 +35,20 @@
   margin-left: 0px;
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  .p-item {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 10%;
+  }
+  .p-details {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .p-img {
+    width: 100%;
+    border-radius: 15px;
+  }
+}

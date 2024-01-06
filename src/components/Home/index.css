@@ -39,7 +39,7 @@
   color: gray;
 }
 .right {
-  width: 50%;
+  width: 49%;
   background-image: url("https://res.cloudinary.com/dv5f6io4i/image/upload/v1704453422/uvwmcrnng7xuv7eprmfx.png");
   height: 70vh;
   background-position: right;
@@ -49,6 +49,7 @@
   flex-direction: column;
   align-items: flex-end;
 }
+
 nav {
   width: 20vw;
   margin-top: 15px;
@@ -91,4 +92,25 @@ ul {
   margin-left: 10px;
   font-weight: 700;
   cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+  }
+  .left {
+    width: 80%;
+    order: 1;
+  }
+  .info {
+    width: 100%;
+  }
+  .right {
+    width: 90%;
+    align-items: center;
+    order: 0;
+  }
+  .nav {
+    width: 60%;
+  }
 }
