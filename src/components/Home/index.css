@@ -1,0 +1,94 @@
+.bg {
+  background-image: linear-gradient(#ffff, azure);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  height: 100vh;
+}
+
+.left {
+  height: 70vh;
+  width: 50%;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-weight: 500;
+}
+.info {
+  width: 60%;
+  margin-top: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  font-family: nunito;
+}
+.h1 {
+  font-size: 30px;
+}
+.designation {
+  color: #fdc435;
+  font-size: 16px;
+  margin: 0px;
+}
+.p {
+  font-size: 16px;
+  color: gray;
+}
+.right {
+  width: 50%;
+  background-image: url("https://res.cloudinary.com/dv5f6io4i/image/upload/v1704453422/uvwmcrnng7xuv7eprmfx.png");
+  height: 70vh;
+  background-position: right;
+  background-size: cover;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+nav {
+  width: 20vw;
+  margin-top: 15px;
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+  padding: 0%;
+  display: flex;
+}
+.ul {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.g-img {
+  height: 100%;
+  width: 75%;
+  margin-left: 10vw;
+}
+
+.y-btn {
+  background-color: #fdc435;
+  border: 1px solid #fdc435;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn {
+  background-color: transparent;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  border: 2px solid black;
+  margin-left: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}

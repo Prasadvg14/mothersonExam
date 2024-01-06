@@ -1,0 +1,37 @@
+.p-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 60vw;
+  margin-top: 5vh;
+  background-color: #ffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.p-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.p-h2 {
+  margin-top: 0px;
+  margin: 0px;
+}
+.i-details {
+  width: 50%;
+}
+
+.p-img {
+  height: 100%;
+  width: 50%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.p-btn {
+  border-radius: 20px;
+  margin-left: 0px;
+  cursor: pointer;
+}
